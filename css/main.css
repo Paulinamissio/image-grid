@@ -17,7 +17,11 @@ html {
 }
 
 section {
-  float left
+  float: left;
+}
+
+body {
+  margin: auto;
 }
 
 img {
@@ -46,4 +50,5 @@ img:nth-child(4) {
 
 img:nth-child(5) {
 overflow: hidden;
+display: none;
 }
